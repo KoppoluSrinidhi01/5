@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+/* Table layout with double borders */
+table {
+  border: 4px double black;
+  border-collapse: collapse;
+  margin-bottom: 30px;
+  font-family: Arial, sans-serif;
+}
+
+/* Vertical nav colors */
+.vertical-nav td {
+  background-color: rgb(190, 103, 237);
+  color: blue;
+  padding: 10px;
+  text-decoration: none;
+}
+
+/* First item in vertical nav */
+.vertical-nav tr:first-child td {
+  background-color: rgb(54, 224, 60);
+  color: white;
+  font-weight: bold;
+}
+
+/* Horizontal nav colors */
+.horizontal-nav td {
+  background-color: #caef72;
+  color: blue;
+  padding: 14px 16px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* First item in horizontal nav */
+.horizontal-nav td:first-child {
+  background-color: gray;
+  color: white;
+}
+</style>
+</head>
+<body>
+
+<!-- Vertical Navigation Bar -->
+<h3>Vertical Navigation Bar</h3>
+<table class="vertical-nav">
+  <tr><td>Home</td></tr>
+  <tr><td>Java</td></tr>
+  <tr><td>CSS</td></tr>
+  <tr><td>HTML</td></tr>
+  <tr><td>Bootstrap</td></tr>
+</table>
+
+<!-- Horizontal Navigation Bar -->
+<h3>Horizontal Navigation Bar</h3>
+<table class="horizontal-nav">
+  <tr>
+    <td>Home</td>
+    <td>Java</td>
+    <td>HTML</td>
+    <td>CSS</td>
+    <td>Bootstrap</td>
+  </tr>
+</table>
+
+</body>
+</html>
